@@ -1,0 +1,207 @@
+body {
+    margin: 0;
+    font-size: 12px;
+    
+}
+
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(fabian-grohs-550489-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.imie {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    color: #fff;
+    font-size: 3em;
+    
+}
+
+.imie h1 {
+    font-weight: 200;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.imie h2 {
+    text-align: center;
+    font-weight: 200;
+    margin: 0;
+}
+
+.color {
+    color: green;
+    
+}
+
+nav {
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    background-color: #fff;
+    opacity: 0.8;
+}
+
+nav ul {
+    padding-left: 0;
+    margin: 0;
+    line-height: 50px;
+    list-style: none;
+    text-align: right;
+}
+
+nav ul li {   
+    display: inline-block;
+    font-size: 1.6em;
+    font-weight: 400;
+    margin-right: 50px;
+}
+
+nav ul li a {   
+    text-decoration: none;
+    color: green;
+}
+
+section .about {
+    text-align: center;
+    font-size: 3em;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+section img {
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+section .about-next {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 1.8em;
+}
+
+.skills .about-skills {
+    font-size: 1.8em;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.skills .techologies {
+    text-align: center;
+    font-size: 8em;
+    margin-top: 40px;
+}
+
+
+.skills .techologies .technology {
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.portfolio .gallery {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+ 
+.portfolio .gallery .images {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    
+}
+
+.portfolio .gallery .images img { 
+    
+    margin: 0;
+}
+
+.portfolio .gallery .images .overlay {
+    position: absolute;
+    background-color: dodgerblue;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.portfolio .gallery .images .overlay .texthov {
+    font-size: 1.8em;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    border: 4px solid white;
+    padding: 5px 15px 5px 15px;
+    transition: .5s ease;
+}
+
+.portfolio .gallery .images:hover .overlay {
+    opacity: 0.8;
+}
+
+footer {
+    width: 100%;
+    background-color: #213b50;
+    padding-top: 50px;
+}
+
+.footer_up {
+    width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+footer .footer_up .footer_up-text {
+    font-size: 4em;
+    color: #fff;
+    margin: 0 0 15px 0;
+    font-weight: 200;
+    
+}
+
+footer .footer_up adress {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 1.6em;
+    font-weight: 100;
+}
+
+footer .footer_up .icons {
+    margin-top: 15px;
+    padding-bottom: 40px;
+}
+
+footer .footer_up .icons .icon1 {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    border: 2px solid white;
+}
+
+.icon1 i {
+    
+    color: #fff;
+    font-size: 2em;
+    line-height: 2em;
+}
